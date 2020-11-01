@@ -1,0 +1,106 @@
+% fish soup.tex
+% recipe file for southern Portuguese fish soup
+
+\begin{recipe}
+[%
+% ~~ RECIPE OVERVIEW: ~~
+	preparationtime = {\unit[20]{min}},
+	bakingtime = {\unit[30]{min}},
+	portion = {\portion{5 - 8}},
+	source = {Ana},
+	country = {Italy},
+	vegetarian = {no},
+	vegan = {no}
+]
+%
+% ~~ RECIPE NAME: ~~
+{Fish Soup}
+
+
+% ~~ PICTURES ~~
+% Appear on top of the page (optional)
+% Insert path\to\filename
+\graph
+{ 
+    small=fish_soup2,     % small picture
+    big=fish_soup  % big picture
+}
+
+
+% ~~ INTRODUCTION ~~
+% History/anecdote on the recipe (optional)
+\introduction
+{ 
+My favourite soup: a southern Portuguese Fish Soup, a taste of the sea in a spoon!
+}
+
+
+% ~~ INGREDIENTS ~~
+% List as '& quantity & item &\\'
+% Caution: no return ('\\') after last item!
+% [v1.1] Multi-columns: '& quantity1 & item1 && quantity2 & item2 ... &\\'
+\ingredients[2] % [v1.1] number of ingredient columns 
+{%
+    2 & fish fillets\\
+    1/2 dozen & shrimps w/ shell\\
+    \unit[1/4]{cup} & frozen pealed shrimp\\
+    1 & courgette\\
+    1 & onion\\
+    1 big & tomato\\
+    1 & carrot\\
+    1 & sweet potato\\
+    3 & garlic cloves\\
+    1/2 & red pepper\\
+    some & fresh flat-leaf parsley\\
+    some & fresh basil\\
+    about \unit[1/2]{tsp} & Piri piri\\
+    some & olive oil\\
+    \unit[1/2]{tsp} & salt\\
+}
+
+
+% ~~ PREPARATION ~~
+% Steps as '\step{whatever the step is}'
+% [until v1.1] Caution: for optimal floating, steps need to be at >= 2
+% 				lines long! -> if one-liner, add a return ('\\') 
+\preparation{%
+    \step{Chop everything into small pieces except the fish, the shrimp, and half of the sweet potato.}
+    \step{Keep the shrimp and the half sweet potato on the side, and put everything else in a big pot including the spices. Put the fish on top so that you can easily remove it. Add just enough warm water to cover everything and a string of olive oil and bring it to a boil. Adjust water as necessary}
+    \step{Once the fish is cooked, take it out and set it aside. Make sure to get any bits that might have fallen into the soup!}
+    \step{Add more boiling water to about twice the height the vegetables get to and let it cook until all the vegetables are really soft.}
+    \step{In the mean time, shred the cooked fish with a fork or cut into smaller pieces, and cut the sweet potato into tiny cubes.}
+    \step{Once the vegetables are soft, reduce the heat and use a hand-blender to blend the soup.}
+    \step{Adjust water to your prefered thickness, adjust the salt and add an extra string of olive oil.}
+    \step{Add the shrimps, the fish and the sweet potato cubes.}
+    \step{Let it simmer for 2 to 5 minutes.}
+    \step{Turn it off and let it cool for a bit before serving.}
+} 
+
+
+% ~~ SUGGESTIONS ~~
+% Chef suggestions (optional)
+\suggestion
+[Pepper sauce] % suggestion title
+{ 
+To make it even tastier, use \unit[1]{tsp} of the red pepper sauce instead of the half pepper!
+}
+
+\suggestion
+[Type of Fish] % suggestion title
+{ 
+For the fish, any fish that doesn't shred too easily is good. I wouldn't recommend any salmon or codfish. Feel free to use frozen fish. If you can find a mix of different types of fish, those are usually a quite nice fit!
+}
+
+
+% ~~ HINT ~~
+% Specific hint (optional)
+\hint
+{
+If you do not have Piri piri, cayenne pepper is a good substitute.\\
+There is no need to chop everything too small since we're blending it but the smaller you chop it, the faster it cooks! Harder vegetables like the carrots and potatoes cook slower, so it's helpful to chop them smaller.\\
+
+}
+
+\end{recipe}
+
+% end of recipe file

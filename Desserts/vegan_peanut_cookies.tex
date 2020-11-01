@@ -1,0 +1,82 @@
+% vegan_peanut_cookies.tex
+% recipe file for homemade apple cinnamon cookies
+
+\begin{recipe}
+[%
+% ~~ RECIPE OVERVIEW: ~~
+	preparationtime = {\unit[40]{mins}},
+	bakingtime = {\unit[12 - 14]{min}},
+	%portion = {\portion{5 - 8}},
+	source = {Ana},
+	vegetarian = {yes},
+	vegan = {yes}
+]
+%
+% ~~ RECIPE NAME: ~~
+{Vegan Peanut Butter Cookies}
+
+
+% ~~ PICTURES ~~
+% Appear on top of the page (optional)
+% Insert path\to\filename
+\graph
+{ 
+    %small=pic/glass,     % small picture
+    big=Peanut_Butter_Cookies  % big picture
+}
+
+
+% ~~ INTRODUCTION ~~
+% History/anecdote on the recipe (optional)
+\introduction
+{
+These banana and peanut butter cookies are not only delicious but also completely vegan! They are soft and moist on the inside.
+}
+
+
+% ~~ INGREDIENTS ~~
+% List as '& quantity & item &\\'
+% Caution: no return ('\\') after last item!
+% [v1.1] Multi-columns: '& quantity1 & item1 && quantity2 & item2 ... &\\'
+\ingredients[2] % [v1.1] number of ingredient columns 
+{%
+    \unit[2]{cups} & flour\\
+    \unit[1/2]{tsp} & baking soda\\
+    \unit[1/4]{cups} & vegetable butter (softened)\\
+    \unit[1/2]{cups} & peanut butter\\
+    \unit[1]{cup} & brown sugar\\
+    \unit[1/2]{tsp} & salt\\
+    \unit[1/2]{cup} & granulated sugar\\
+    \unit[1]{tsp} & vanilla extract\\
+    2 & crushed ripe bananas\\
+    \unit[1/2]{tsp} & cinnamon\\
+    \unit[1]{tbsp} & ground linseed in \unit[3]{tbsp} of warm water\\
+}
+
+
+% ~~ PREPARATION ~~
+% Steps as '\step{whatever the step is}'
+% [until v1.1] Caution: for optimal floating, steps need to be at >= 2
+% 				lines long! -> if one-liner, add a return ('\\') 
+\preparation{%
+    \step{Mix flour, baking soda, cinnamon and salt.}
+    \step{On a separate bowl, mix the butter, the peanut butter, the crushed bananas and the sugar. Add the linseed mix and the vanilla extract.}
+    \step{Mix the content of the two bowls.}
+    \step{Take it to the fridge for at least \unit[20]{minutes}.}
+    \step{Use an ice-scream scoop to measure the cookie batter and lay scoops on a baking tray about \unit[8]{cm} apart.}
+    \step{Bake for about 13 mins at 165ºC (a bit more if your oven doesn't have a fan).}
+    \step{Once you take the tray out of the oven, cover it with a clean kitchen cloth (preferably not touching the cookies) and let them cool down for at least \unit[10]{minutes} before taking the cookies out of tray. (When they come out, they are too gooey to be removed from the tray, which is why you need to wait }
+} 
+
+
+% ~~ HINT ~~
+% Specific hint (optional)
+\hint
+{
+Make sure not to skip the last step of the recipe!
+When the cookies come out, they are too gooey to be removed from the tray, which is why you need to wait for the bottom to harden before removing them.
+}
+
+\end{recipe}
+
+% end of recipe file

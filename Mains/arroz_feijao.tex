@@ -1,0 +1,103 @@
+% arroz de feijao.tex
+% recipe file for portuguese rice and beans
+
+\begin{recipe}
+[%
+% ~~ RECIPE OVERVIEW: ~~
+	preparationtime = {\unit[10]{min}},
+	bakingtime = {\unit[30]{min}},
+	portion = {\unit[1]{big pot}},
+	source = {Ana},
+	country = {Portugal},
+	vegetarian = {yes},
+	vegan = {yes}
+]
+%
+% ~~ RECIPE NAME: ~~
+{Arroz de Feij\~ao\\(Rice with beans)}
+
+
+% ~~ PICTURES ~~
+% Appear on top of the page (optional)
+% Insert path\to\filename
+\graph
+{ 
+    small=arroz_feijao2,     % small picture
+    big=arroz_feijao  % big picture
+}
+
+
+% ~~ INTRODUCTION ~~
+% History/anecdote on the recipe (optional)
+\introduction
+{ 
+One of my favourite dishes: arroz de feij\~ao. Basically, it is rice with beans cooked in a really nice stewed tomato sauce. Traditionally, it is a side dish, usually for meat. But personally, I think it goes really well on its own!
+}
+
+
+% ~~ INGREDIENTS ~~
+% List as '& quantity & item &\\'
+% Caution: no return ('\\') after last item!
+% [v1.1] Multi-columns: '& quantity1 & item1 && quantity2 & item2 ... &\\'
+\ingredients[2] % [v1.1] number of ingredient columns 
+{%
+    1 & onion\\
+    2 & tomatoes\\
+    3 & garlic cloves\\
+    1/2 & red pepper\\
+    \unit[1/2]{cup pp} & rice\\
+    \unit[400]{g} & can red kidney beans\\
+    some & fresh coriander\\
+    some & fresh basil\\
+    2 & bay leafs\\
+    about \unit[1/2]{tsp} & Piri piri\\
+    or 1 & chili pepper\\
+    some & olive oil\\
+    \unit[1/2]{tsp} & salt\\
+}
+
+
+% ~~ PREPARATION ~~
+% Steps as '\step{whatever the step is}'
+% [until v1.1] Caution: for optimal floating, steps need to be at >= 2
+% 				lines long! -> if one-liner, add a return ('\\') 
+\preparation{%
+    \step{Dice the onions and the garlic. Peel the tomatoes and chop them in small cubes. Chop the peppers into small pieces and dice the herbs and the chili pepper in case you're using it.}
+    \step{Fry the onions and the garlic in some olive oil.}
+    \step{Once they have started to golden, add the red peppers.}
+    \step{Add the tomatoes, the herbs, bay leafs and the spices and let it cook for a few minutes, stiring constantly to keep it from sticking.}
+    \step{Add 2 cups of boiling water and the can of beans. Let it cook for about \unit[5 - 10]{minutes}.}
+    \step{Taste and adjust salt and other spices to your taste.}
+    \step{If you want to make more than \unit[1]{cup} of rice, add more boiling water (about \unit[2]{cups} of water per \unit[1]{cup} of rice)}
+    \step{Let it cook, adding more water when necessary, until the flavour is to your taste (about \unit[5 - 10]{minutes} should be enough.)}
+    \step{Add the rice, and cook according to the package, stirring constantly. Add more water if necessary or if you want to have more sauce.}
+    \step{Once the rice is cooked, turn off the heat, take out the bay leafs and serve warm.}
+} 
+
+
+% ~~ SUGGESTIONS ~~
+% Chef suggestions (optional)
+\suggestion
+[Pepper sauce] % suggestion title
+{ 
+To make it even tastier, use \unit[1 - 2]{tsp} of the red pepper sauce instead of the half pepper!
+}
+
+\suggestion
+[Get creative] % suggestion title
+{ 
+You can add many more things to this meal, some people like to add carrot slices or pieces of cabbage. I personally really like to add some fresh mushrooms. Just add whatever you like when you add the beans!
+}
+
+
+% ~~ HINT ~~
+% Specific hint (optional)
+\hint
+{
+There are a few tricks to easily peel the tomatoes. I usually keep some frozen and them just take them out, put them in a bowl of warm water for a few minutes and the skin comes off quite easily.
+However, if you don't want to keep frozen tomatoes a good trick is to make an X on the bottom and put them in a pot of boiling water for no more than a minute. Then put them into a bowl of cold water (or an ice bath), taking them immediately back out. Peeling them should be easy now!
+}
+
+\end{recipe}
+
+% end of recipe file

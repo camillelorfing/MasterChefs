@@ -1,0 +1,76 @@
+% breadsticks.tex
+% recipe file for homemade breadsticks
+
+\begin{recipe}
+[%
+% ~~ RECIPE OVERVIEW: ~~
+	preparationtime = {\unit[1]{h}\unit[30]{min}},
+	bakingtime = {\unit[20]{min}},
+	%portion = {\portion{5 - 8}},
+	source = {Ana},
+	vegetarian = {yes},
+	vegan = {yes}
+]
+%
+% ~~ RECIPE NAME: ~~
+{Breadsticks}
+
+
+% ~~ PICTURES ~~
+% Appear on top of the page (optional)
+% Insert path\to\filename
+\graph
+{ 
+    %small=pic/glass,     % small picture
+    big=breadsticks  % big picture
+}
+
+
+% ~~ INTRODUCTION ~~
+% History/anecdote on the recipe (optional)
+\introduction
+{ 
+These breatsticks are soft on the inside but crunchy on the outside.
+}
+
+
+% ~~ INGREDIENTS ~~
+% List as '& quantity & item &\\'
+% Caution: no return ('\\') after last item!
+% [v1.1] Multi-columns: '& quantity1 & item1 && quantity2 & item2 ... &\\'
+\ingredients[2] % [v1.1] number of ingredient columns 
+{%
+    \unit[200]{g} & flour\\
+    \unit[4]{g} & baking soda\\
+    \unit[150]{mL} & warm water\\
+    some & olive oil\\
+    some & salt\\
+}
+
+
+% ~~ PREPARATION ~~
+% Steps as '\step{whatever the step is}'
+% [until v1.1] Caution: for optimal floating, steps need to be at >= 2
+% 				lines long! -> if one-liner, add a return ('\\') 
+\preparation{%
+    \step{Mix flour, baking soda and salt.}
+    \step{Add the olive oil and enough water to make a soft batter that doesn't stick.}
+    \step{Work the batter for about \unit[5]{mins}.}
+    \step{Divide into portions and roll into breadsticks about \unit[20]{cm} long with a \unit[1]{cm} diameter.}
+    \step{Lay it on a baking tray and let it rest for \unit[1]{hour}}
+    \step{Bake for 20 mins at 200ºC (a bit less if your oven has a fan)}
+} 
+
+
+% ~~ SUGGESTIONS ~~
+% Chef suggestions (optional)
+\suggestion
+[Add a little more flavour] % suggestion title
+{ 
+Before taking it all into the oven, add some herbs to make them even tastier. Oregano and black pepper are some of my favourites in this case!
+}
+
+
+\end{recipe}
+
+% end of recipe file

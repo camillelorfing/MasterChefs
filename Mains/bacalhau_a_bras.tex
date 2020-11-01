@@ -1,0 +1,85 @@
+% bacalhau a bras.tex
+% recipe file for Portuguese Bacalhau à Brás
+
+\begin{recipe}
+[%
+% ~~ RECIPE OVERVIEW: ~~
+	preparationtime = {\unit[15]{min}},
+	bakingtime = {\unit[1]{h}},
+	portion = {\unit[1]{big pot}},
+	source = {Ana},
+	country = {Portugal},
+	vegetarian = {no},
+	vegan = {no}
+]
+%
+% ~~ RECIPE NAME: ~~
+{Bacalhau \`{a} Br\'{a}s}
+
+
+% ~~ PICTURES ~~
+% Appear on top of the page (optional)
+% Insert path\to\filename
+\graph
+{ 
+    small=bacalhau_bras,     % small picture
+    big=bacalhau_bras2  % big picture
+}
+
+
+% ~~ INTRODUCTION ~~
+% History/anecdote on the recipe (optional)
+\introduction
+{ 
+One of the most typical Portuguese codfish dishes and my personal favourite: Bacalhau \`{a} Br\'{a}s. It is basically codfish with fries and eggs all mix together beautifully.
+}
+
+
+% ~~ INGREDIENTS ~~
+% List as '& quantity & item &\\'
+% Caution: no return ('\\') after last item!
+% [v1.1] Multi-columns: '& quantity1 & item1 && quantity2 & item2 ... &\\'
+\ingredients[2] % [v1.1] number of ingredient columns 
+{%
+    4 & eggs\\
+    1 & onion\\
+    6 & big potatoes\\
+    3 & garlic cloves\\
+    2 & salted codfish fillets\\
+    \unit[1/4]{cup} & fresh flat-leaf parsley\\
+    \unit[1/2]{tsp} & salt\\
+    a lot & olive oil\\
+    some & olives (optional)\\
+}
+
+
+% ~~ PREPARATION ~~
+% Steps as '\step{whatever the step is}'
+% [until v1.1] Caution: for optimal floating, steps need to be at >= 2
+% 				lines long! -> if one-liner, add a return ('\\') 
+\preparation{%
+    \step{Cut the potatoes into thin fries shape, about \unit[3]{cm} long.}
+    \step{Fill a frying pan with olive oil about \unit[1]{cm} deep and heat it up the oil is warm (but not too hot).}
+    \step{Fry the potatoes until they are just about cooked but don't let them get too soft.}
+    \step{Set them aside in some paper towels to soak up the extra grease.}
+    \step{Dice the onions and mince the garlic and the parsley.}
+    \step{Shred the codfish and mix the eggs.}
+    \step{In a big pot, heat up some olive oil and put in the onion and garlic stirring constantly.}
+    \step{When the onion have started to get golden, add the shredded codfish and the parsley.}
+    \step{Let it cook for a few minutes and then add the egg mix. Stir constantly until the eggs are almost cooked.}
+    \step{Add the fries and mix it all, stirring until the eggs are cooked and the potatoes are soft.}
+    \step{Serve warm with some olives and enjoy!}
+} 
+
+
+% ~~ HINT ~~
+% Specific hint (optional)
+\hint
+{
+If you can't find salted codfish, just get fresh codfish and leave it covered in salt for about 1h. Make sure to rinse all the extra salt before using!
+}
+
+
+\end{recipe}
+
+% end of recipe file

@@ -1,0 +1,84 @@
+% Butternut Squash soup.tex
+% recipe file for southern Portuguese fish soup
+
+\begin{recipe}
+[%
+% ~~ RECIPE OVERVIEW: ~~
+	preparationtime = {\unit[20]{min}},
+	bakingtime = {\unit[30]{min}},
+	portion = {\portion{5 - 8}},
+	source = {Ana},
+	vegetarian = {yes},
+	vegan = {yes}
+]
+%
+% ~~ RECIPE NAME: ~~
+{Butternut Squash Soup}
+
+
+% ~~ PICTURES ~~
+% Appear on top of the page (optional)
+% Insert path\to\filename
+\graph
+{ 
+   % small=butternut_squash_soup,     % small picture
+    big=butternut_squash_soup  % big picture
+}
+
+
+% ~~ INTRODUCTION ~~
+% History/anecdote on the recipe (optional)
+\introduction
+{ 
+A light vegetable soup, perfect for a rainy day in Autumn!
+}
+
+
+% ~~ INGREDIENTS ~~
+% List as '& quantity & item &\\'
+% Caution: no return ('\\') after last item!
+% [v1.1] Multi-columns: '& quantity1 & item1 && quantity2 & item2 ... &\\'
+\ingredients[2] % [v1.1] number of ingredient columns 
+{%
+    1 & butternut squash\\
+    1 & courgette\\
+    1 & onion\\
+    1 & tomato\\
+    1 small & sweet potato\\
+    3 & garlic cloves\\
+    1/2 & red pepper\\
+    some & fresh flat-leaf parsley\\
+    some & fresh basil\\
+    some & olive oil\\
+    \unit[1/2]{tsp} & salt\\
+    \unit[250]{g} & spinach (optional)\\
+    \unit[1/4]{tsp} & cinnamon\\
+}
+
+
+% ~~ PREPARATION ~~
+% Steps as '\step{whatever the step is}'
+% [until v1.1] Caution: for optimal floating, steps need to be at >= 2
+% 				lines long! -> if one-liner, add a return ('\\') 
+\preparation{%
+    \step{Chop everything into small pieces except the spinach.}
+    \step{Put everything in a big pot including the spices but except the cinnamon. Add just enough warm water to cover everything and a string of olive oil and bring it to a boil for about \unit[10]{mins}. Adjust water as necessary.}
+    \step{Add more boiling water to about twice the height the vegetables get to and let it cook until all the vegetables are really soft.}
+    \step{Once the vegetables are soft, reduce the heat and use a hand-blender to blend the soup.}
+    \step{Adjust water to your preferred thickness, adjust the salt and add an extra string of olive oil.}
+    \step{Add the spinach. (Shred in smaller pieces if the leaves are too big)}
+    \step{Let it simmer for 2 to 5 minutes.}
+    \step{Turn it off and let it cool for a bit before serving.}
+} 
+
+
+% ~~ HINT ~~
+% Specific hint (optional)
+\hint
+{
+There is no need to chop everything too small since we're blending it but the smaller you chop it, the faster it cooks! Harder vegetables like the carrots and potatoes cook slower, so it's helpful to chop them smaller.\\
+}
+
+\end{recipe}
+
+% end of recipe file
